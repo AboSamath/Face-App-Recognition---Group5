@@ -39,7 +39,7 @@ def classify(image, model, class_names):
     prediction = model.predict(data)
 
     index = np.argmax(prediction)
-    index = 0 if prediction[0][0] > 0.95 else 1
+    # index = 0 if prediction[0][0] > 0.95 else 1
     class_name = class_names[index]
     confidence_score = prediction[0][index]
 
