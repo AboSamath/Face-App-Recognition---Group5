@@ -23,7 +23,7 @@ def set_background(image_file):
 
 def classify(image, model, class_names):
     # convert image to (224, 224)
-    image = ImageOps.fit(image, (224, 224), Image.Resampling.LANCZOS)
+    image = ImageOps.fit(image, (220, 220), Image.Resampling.LANCZOS)
 
     # convert image to numpy array
     image_array = np.asarray(image)
@@ -32,7 +32,7 @@ def classify(image, model, class_names):
     normalized_image_array = (image_array.astype(np.float32) / 127.5) - 1
 
     # set model input
-    data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
+    data = np.ndarray(shape=(1, 220, 220, 3), dtype=np.float32)
     data[0] = normalized_image_array
 
     # make prediction
