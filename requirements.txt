@@ -1,5 +1,5 @@
 streamlit
 keras
-PIL
+PILLOW
 numpy
 matplotlib
