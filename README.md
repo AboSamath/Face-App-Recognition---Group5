@@ -8,6 +8,12 @@ Computer Vision Project - Face App Recognition
 ## Description
 
 L'Application de Reconnaissance Faciale est un outil qui vous permet de reconnaître des visages dans des photos chargées et d'extraire des informations sur les personnes détectées. Cette application utilise la vision par ordinateur et l'apprentissage profond pour réaliser cette tâche de manière précise.
+Cet application ci-présent permet de reconnaitre les visages de 5 certains start de marvel :
+ - Robert Downey Junior
+ - Mark ruffalo
+ - Chris Evans
+ - Chris Hemsworth
+ - Scarlett Johanson
 
 ## Fonctionnalités
 
