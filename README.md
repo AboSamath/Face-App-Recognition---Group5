@@ -33,7 +33,7 @@ L'Application de Reconnaissance Faciale est un outil qui vous permet de reconna√
 
 - Mor Codou SECK  
 - Abdou Samath YATTE
-- Modeste OUIDENG
+- OUIDENG Modeste
 - Sergeo SELAGSA MOFFO
 - Massaly SANA
 - Ibrahim SAWADOGO
